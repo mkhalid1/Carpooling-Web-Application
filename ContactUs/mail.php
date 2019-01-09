@@ -20,8 +20,8 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.sendgrid.net';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'junaid_khalid';                 // SMTP username
-    $mail->Password = 'hi12345678';                           // SMTP password
+    $mail->Username = '';                 // SMTP username
+    $mail->Password = '';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
