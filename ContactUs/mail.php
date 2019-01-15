@@ -26,12 +26,12 @@ try {
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('mkhalid.bese16seecs@seecs.edu.pk', 'Junaid Khalid');
+    $mail->setFrom(yourEmail, yourName);
 
-    $mail->addAddress('mkhalid.bese16seecs@seecs.edu.pk');     
+    $mail->addAddress(recipientsEmail);     
     // Add a recipient
     // $mail->addReplyTo('info@example.com', 'Information');
-    $mail->addCC('riftikhar.bese16seecs@seecs.edu.pk');
+    $mail->addCC(addEmail);
     // $mail->addBCC('bcc@example.com');
 
     //Attachments
